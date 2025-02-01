@@ -1,12 +1,3 @@
-SET NAMES utf8;
-SET time_zone = '+00:00';
-SET foreign_key_checks = 0;
-SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
-
-USE `rowPHPEnv`;
-
-SET NAMES utf8mb4;
-
 DROP TABLE IF EXISTS `attendees`;
 CREATE TABLE `attendees` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -50,6 +41,4 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `phone`, `email_verified_at`, `remember_token`, `is_admin`, `created_at`, `updated_at`) VALUES
-(1,	'Rakib ',	'rakibahmed207@gmail.com',	'$2y$10$33zIW0DoEnyeqmhH8cEYQu50AUt1iW9kfGHJyFESVWOVYXt/gfMR2',	NULL,	NULL,	NULL,	1,	'2025-02-01 20:36:10',	'2025-02-01 20:36:10');
-
--- 2025-02-01 14:33:19
+(2,	'Rakib ',	'rakibahmed207@gmail.com',	'$2y$10$33zIW0DoEnyeqmhH8cEYQu50AUt1iW9kfGHJyFESVWOVYXt/gfMR2',	NULL,	NULL,	NULL,	1,	'2025-02-01 20:36:10',	'2025-02-01 20:36:10');
