@@ -1,0 +1,13 @@
+{
+    "name": "rakib/assignment",
+    "description": "This is a assignment about wedb",
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
