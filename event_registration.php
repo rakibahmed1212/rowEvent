@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['add_attendee'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
-        $attendeeManager->registerAttendee($eventId, $name, $email);
+        $attendeeManager->registerAttendee($_GET['event_id'], $name, $email);
     }
 }
 ?>
